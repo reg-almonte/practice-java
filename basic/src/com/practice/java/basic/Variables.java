@@ -1,8 +1,11 @@
-package javaBasic;
+package com.practice.java.basic;
 
-public class JavaBasic {
-
-	public static void main(String[] args) {
+public class Variables {
+	
+//	public Variables() {
+//	}
+	
+	public static void printTutorial() {
 		// System.out.println("Hello world!\n");
 		System.out.println("Review Code For Basic Java Programming Language\n");
 		
@@ -13,7 +16,6 @@ public class JavaBasic {
 		primitiveDataTypes();
 		System.out.println("\n1.2. Literals:");
 		literals();
-
 	}
 	
 	static void primitiveDataTypes() {
